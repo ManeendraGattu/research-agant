@@ -244,7 +244,7 @@ async def search_web(ctx, query):
     return search.get_dict()["organic_results"]
 ```
 
-## 📊 Output Format
+## Output Format
 
 The agent returns structured `ResearchFindings`:
 
@@ -265,7 +265,7 @@ The agent returns structured `ResearchFindings`:
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 Run the included demos to test functionality:
 
@@ -277,7 +277,7 @@ python main.py
 python main.py
 ```
 
-## 📝 Examples
+## Examples
 
 ### Example 1: Technology Research
 
@@ -307,7 +307,7 @@ results = await agent.research(
 )
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "OpenAI API key not found"
 - **Solution**: Make sure you've created a `.env` file and added your API key
@@ -321,20 +321,20 @@ results = await agent.research(
   pip install -r requirements.txt
   ```
 
-## 🔒 Security Notes
+## Security Notes
 
 - Never commit your `.env` file to version control
 - Keep your API keys secure
 - Use environment variables for all sensitive data
 - The `.gitignore` file is configured to exclude `.env`
 
-## 📚 Resources
+## Resources
 
 - [Pydantic AI Documentation](https://ai.pydantic.dev/)
 - [Logfire Documentation](https://logfire.pydantic.dev/)
 - [OpenAI API Documentation](https://platform.openai.com/docs)
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to extend this agent with:
 - Additional tools (PDF parsing, image analysis, etc.)
@@ -343,11 +343,11 @@ Feel free to extend this agent with:
 - Custom result formatters
 - Integration with vector databases
 
-## 📄 License
+## License
 
 This project is provided as-is for educational and development purposes.
 
-## 🎯 Next Steps
+## Next Steps
 
 1. Replace dummy tokens with real API keys
 2. Test the agent with various queries
@@ -355,6 +355,3 @@ This project is provided as-is for educational and development purposes.
 4. Customize tools for your specific use case
 5. Integrate with real search APIs for production use
 
----
-
-**Built with ❤️ using Pydantic AI and Logfire**
